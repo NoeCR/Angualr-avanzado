@@ -1,0 +1,18 @@
+<h3>{{ leyend }}</h3>
+<div class="input-group">
+    <input type="text" 
+            #txtProgess
+            class="form-control" 
+            (keydown.enter)="onKeyDown($event)" 
+            placeholder="Insert operator and value" 
+            onfocus="this.value=''"
+    >
+    <div class="input-group-append" id="button-addon4">
+        <button class="btn btn-outline-secondary" type="button" (click)="changeValue( '+5' )">
+            <i class="mdi mdi-plus"></i>
+        </button>
+        <button class="btn btn-outline-secondary" type="button" (click)="changeValue( '-5' )">
+            <i class="mdi mdi-minus"></i>
+        </button>
+    </div>
+</div>

@@ -1,1 +1,21 @@
-<p>graphics1 works!</p>
+<div class="row">
+
+
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <app-dona-graph [data]="dataValues" 
+                                [labels]="dataLabels"
+                                [chartType]="datachartType"></app-dona-graph>                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <app-dish-list [items]="items" (itemEmitter)="openDialog($event)"></app-dish-list>
+    </div>
+
+
+</div>

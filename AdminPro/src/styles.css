@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.custom-dialog-container{
+    position: relative !important;
+    top: -350px;
+    left: 245px;
+    width: auto;
+    background: #ecf2eb;
+}

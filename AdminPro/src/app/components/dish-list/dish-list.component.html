@@ -1,0 +1,23 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Top</th>
+            <th scope="col">Plato</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Total Uds. / mes</th>
+            <th scope="col">Gráfica de ventas / mes</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let item of items" (click)="showItem(item)" style="cursor: pointer;">
+            <th scope="row">{{ item.id }}</th>
+            <td>{{ item.name }}</td>
+            <td>{{ item.price }}€</td>
+            <td>{{ item.totalMonth }}</td>
+            <td>Work in progress</td>
+        </tr>
+
+
+    </tbody>
+</table>
