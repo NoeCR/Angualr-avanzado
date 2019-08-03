@@ -17,6 +17,7 @@ import { DonaGraphComponent } from '../components/dona-graph/dona-graph.componen
 import { DishListComponent } from '../components/dish-list/dish-list.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatDialogModule } from '@angular/material';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { MatDialogModule } from '@angular/material';
         IncrementComponent,
         DonaGraphComponent,
         DishListComponent,
-        DialogComponent
+        DialogComponent,
+        AccountSettingsComponent
     ],
     imports: [
         BrowserModule,
@@ -43,6 +45,7 @@ import { MatDialogModule } from '@angular/material';
         DashboardComponent,
         ProgressComponent,
         Graphics1Component,
+        AccountSettingsComponent
     ]
 })
 

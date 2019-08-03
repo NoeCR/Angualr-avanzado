@@ -6,3 +6,6 @@
     width: auto;
     background: #ecf2eb;
 }
+#themecolors a {
+    cursor: pointer;
+}

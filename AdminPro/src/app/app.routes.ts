@@ -26,7 +26,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     PagesRoutingModule,
-    RouterModule.forRoot(routes, { useHash: true } )
+    RouterModule.forRoot( routes )
   ],
   exports: [RouterModule]
 })

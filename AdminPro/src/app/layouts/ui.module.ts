@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 // Components
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -15,7 +17,12 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
+    ],
+    imports: [
+        CommonModule,
+        RouterModule
     ]
+
 })
 
 export class UiModule {}
