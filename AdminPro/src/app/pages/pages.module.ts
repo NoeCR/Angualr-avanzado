@@ -18,6 +18,8 @@ import { DishListComponent } from '../components/dish-list/dish-list.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatDialogModule } from '@angular/material';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -29,7 +31,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         DonaGraphComponent,
         DishListComponent,
         DialogComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     imports: [
         BrowserModule,
